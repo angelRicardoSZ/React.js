@@ -1,0 +1,14 @@
+:root {
+     /* Colors */
+     --dark-blue: #0B1146;
+     --soft-blue:#555B98;
+     --dark-green:#195702;
+     --soft-green: #75BC5B;
+     --dark-red:#600211;
+     --soft-red:#D06576;
+   }
+ 
+.TodoCounter {
+     font-size: 24px;
+     text-align: center;
+}

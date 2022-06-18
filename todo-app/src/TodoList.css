@@ -1,0 +1,13 @@
+:root {
+    /* Colors */
+    --dark-blue: #0B1146;
+    --soft-blue:#555B98
+  }
+
+
+ul{
+    margin:0;
+    padding:0 0 56px;
+    list-style:none
+}
+

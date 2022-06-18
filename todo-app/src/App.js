@@ -12,10 +12,10 @@ const todos = [
     text: "Cortar cebolla", completed:false
   },
   {
-    text: "Tarea 2", completed:false
+    text: "Tarea 2", completed:true
   },
   {
-    text: "Tarea 3", completed:false
+    text: "Tarea 3", completed:true
   }
 ]
 
@@ -29,7 +29,7 @@ function App() {
      
      
     <TodoList>
-      {todos.map(todo => (<TodoItem key={todo.text} text={todo.text} /> ))}
+      {todos.map(todo => (<TodoItem key={todo.text} text={todo.text} completed={todo.completed} /> ))}
     </TodoList>
     
 
